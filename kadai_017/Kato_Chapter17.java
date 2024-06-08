@@ -7,6 +7,7 @@ public abstract class Kato_Chapter17 {
 	
 	
 	public void commonIntroduce() {
+		System.out.println("住所は" + address + "です");
 	};
 	abstract public void eachIntroduce();
 	public void execIntroduce() {
