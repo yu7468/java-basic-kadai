@@ -70,7 +70,7 @@ public class Jyanken_Chapter24 {
 	};
 
 	//じゃんけんゲーム結果を比較
-	public void playGame() {
+	public void playGame(String myChoice, String comChioce) {
 		if (myChoice.equals(comChoice)) {
 			System.out.println("あいこです");
 		}else if ((myChoice.equals("r") && comChoice.equals("s")) ||
